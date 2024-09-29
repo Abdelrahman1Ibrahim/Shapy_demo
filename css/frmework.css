@@ -1,0 +1,135 @@
+/* Start display */
+.flex-center {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.flex-between {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.flex-evenly {
+    display        : flex;
+    justify-content: space-evenly;
+}
+.make-center{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+}
+.grow1 {
+    flex-grow: 1;
+}
+
+.block {
+    display: block;
+}
+
+/* End display */
+/* Start Space */
+.m-l10 {
+    margin-left: 10px;
+}
+
+.m-l20 {
+    margin-left: 20px;
+}
+
+.m-l30 {
+    margin-left: 30px;
+}
+
+.m-t10{
+    margin-top: 10px;
+}
+.m-t20{
+    margin-top: 20px;
+}
+.m-t30{
+    margin-top: 30px;
+}
+.p-15 {
+    padding: 15px;
+}
+
+.p-b15 {
+    padding-block: 15px;
+}
+
+.p-b10 {
+    padding-block: 10px;
+}
+
+.p-b5 {
+    padding-block: 5px;
+}
+
+.p-inline15 {
+    padding-inline: 15px;
+}
+
+/* End Space */
+/* Strat font */
+.f-14 {
+    font-size: 14px;
+}
+
+.f-13 {
+    font-size: 13px;
+}
+
+/* End font */
+/* start color and text*/
+.text-color {
+    color: rgb(58, 82, 191);
+}
+.c-4c {
+    color: #4c4c4c;
+}
+.white{
+    color: white;
+}
+.line-height {
+    line-height: 53px;
+}
+.text-center{
+    text-align: center;
+}
+
+/* End color and text*/
+/* Start width */
+.w-200 {
+    width                : 200px;
+    background-color     : #fff;
+    box-shadow           : 0 6px 12px rgba(0, 0, 0, 0.175);
+    border-radius        : 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius   : 5px;
+    -ms-border-radius    : 5px;
+    -o-border-radius     : 5px;
+}
+.full-width{
+    width: 100%;
+}
+.full-height{
+    height: 100%;
+}
+/* End width */
+/* Start position */
+.position_relative {
+    position: relative;
+}
+
+.position_absolute {
+    position: absolute;
+}
+.none{
+display: none;
+}
+/* End position */
